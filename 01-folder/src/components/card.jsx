@@ -1,6 +1,11 @@
-function Card() {
+import React from 'react'
 
-    return 'hi i am Card'
-
+const Card = () => {
+    return (
+        <div className="card">
+            <h1>Aviral Mishra</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptas.</p>
+        </div>
+    )
 }
-export default Card;
+export default Card
