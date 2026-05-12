@@ -2,14 +2,16 @@ import React from 'react'
 
 const App = () => {
   return (
-    <>
-      <div id='Dad'>
-        <h1>App</h1>
-        <h2>Hello</h2>
+    <div>
+      <div className='card'>
+        <h1>Aviral Mishra</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsa.</p>
       </div>
-      <div id="chacha"></div>
-    </>
+    </div>
+
   )
 }
 export default App
+
+
 
